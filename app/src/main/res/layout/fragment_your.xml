@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:id="@+id/fragment_container"
+    tools:context=".YourFragment">
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Close"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/alien"/>
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/magic" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/cake"/>
+
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/darkcho" />
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="270dp"
+        android:src="@drawable/cat" />
+
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/fire" />
+
+</FrameLayout>
