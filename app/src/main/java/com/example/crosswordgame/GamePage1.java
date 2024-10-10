@@ -81,7 +81,7 @@ public class GamePage1 extends AppCompatActivity {
         images.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Open the fragment
+                // Open the fragment on screen
                 YourFragment fragment = new YourFragment();
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container, fragment)
@@ -155,7 +155,7 @@ public class GamePage1 extends AppCompatActivity {
                     Toast.makeText(GamePage1.this, "Please fill all fields correctly", Toast.LENGTH_SHORT).show();
                 }
 
-//               use all Codition's
+//               use all Codition's for each blocks
 
                 if (text1.isEmpty()) {
                     ed1.setBackgroundColor(Color.WHITE);
@@ -562,19 +562,6 @@ public class GamePage1 extends AppCompatActivity {
                         ed29.getText().clear();
                     }
                 }
-
-//                if (text30.isEmpty()) {
-//                    ed30.setBackgroundColor(Color.RED);
-//                    ed30.setBackgroundResource(R.drawable.border_with_red_bg);
-//                } else {
-//                    if (text30.equals("P")) {
-//                        ed30.setBackgroundColor(Color.GREEN);
-//                        ed30.setBackgroundResource(R.drawable.border_with_green_bg);
-//                    } else {
-//                        ed30.setBackgroundColor(Color.RED);
-//                        ed30.setBackgroundResource(R.drawable.border_with_red_bg);
-//                    }
-//                }
 
                 if (text31.isEmpty()) {
                     ed31.setBackgroundColor(Color.WHITE);
