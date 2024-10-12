@@ -14,7 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class EndGame extends AppCompatActivity {
 
-    TextView home,playagain;
+    TextView home;
+    TextView playagain;
 
     @SuppressLint("MissingInflatedId")
     @Override
