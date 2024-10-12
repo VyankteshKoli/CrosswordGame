@@ -10,7 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class EndGame2 extends AppCompatActivity {
 
-    TextView home,playagain;
+    TextView home;
+    TextView playagain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
