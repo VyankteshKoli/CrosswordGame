@@ -15,7 +15,8 @@ public class YourFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_your, container, false);
 
-        TextView close = view.findViewById(R.id.close);
+        TextView close;
+        close = view.findViewById(R.id.close);
         close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
